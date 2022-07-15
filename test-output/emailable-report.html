@@ -9,14 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Flipkart</th></tr>
-<tr><td><a href="#t0">FlipkartApp Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">59,470</td><td></td><td></td></tr>
+<tr><td><a href="#t0">FlipkartApp Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">32,684</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Flipkart</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FlipkartApp Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Flipkart.testCases.TC_001_LoginTest</td><td><a href="#m0">LoginTest</a></td><td rowspan="1">1657891294819</td><td rowspan="1">4223</td></tr><tr class="passedodd"><td rowspan="1">com.Flipkart.testCases.TC_002_LogOutTest</td><td><a href="#m1">LogoutTest</a></td><td rowspan="1">1657891301206</td><td rowspan="1">10450</td></tr><tr class="passedeven"><td rowspan="1">com.Flipkart.testCases.TC_003_CartTest</td><td><a href="#m2">CartTest</a></td><td rowspan="1">1657891313702</td><td rowspan="1">9295</td></tr><tr class="passedodd"><td rowspan="1">com.Flipkart.testCases.TC_004_BecomeSellerTest</td><td><a href="#m3">BecomeSellerTest</a></td><td rowspan="1">1657891325106</td><td rowspan="1">12100</td></tr><tr class="passedeven"><td rowspan="1">com.Flipkart.testCases.TC_005_SelectToyTest</td><td><a href="#m4">SelectToyTest</a></td><td rowspan="1">1657891339274</td><td rowspan="1">11215</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Flipkart</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FlipkartApp Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Flipkart.testCases.TC_005_SelectToyTest</td><td><a href="#m0">SelectToyTest</a></td><td rowspan="1">1657901627412</td><td rowspan="1">28513</td></tr></tbody>
 </table>
-<h2>FlipkartApp Test</h2><h3 id="m0">com.Flipkart.testCases.TC_001_LoginTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.Flipkart.testCases.TC_002_LogOutTest#LogoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.Flipkart.testCases.TC_003_CartTest#CartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.Flipkart.testCases.TC_004_BecomeSellerTest#BecomeSellerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.Flipkart.testCases.TC_005_SelectToyTest#SelectToyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FlipkartApp Test</h2><h3 id="m0">com.Flipkart.testCases.TC_005_SelectToyTest#SelectToyTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[normalize-space()=&apos;Add to Cart&apos;])[1]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-7HVSB5O&apos;, ip: &apos;192.168.216.61&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Yogesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cabae5ffc78560baf44b63b96f075a3
+*** Element info: {Using=xpath, value=(//button[normalize-space()=&apos;Add to Cart&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.Flipkart.pageObjects.BeautyToysAndMorePage.ClickonAddToCart(BeautyToysAndMorePage.java:58)
+	at com.Flipkart.testCases.TC_005_SelectToyTest.SelectToyTest(TC_005_SelectToyTest.java:65)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Flipkart">
-              <span class="suite-name border-passed">Flipkart</span>
+              <span class="suite-name border-failed">Flipkart</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,41 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Flipkart" class="hide-methods passed suite-Flipkart"> (hide)</a> <!-- hide-methods passed suite-Flipkart -->
-                      <a href="#" panel-name="suite-Flipkart" class="show-methods passed suite-Flipkart"> (show)</a> <!-- show-methods passed suite-Flipkart -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Flipkart" class="hide-methods failed suite-Flipkart"> (hide)</a> <!-- hide-methods failed suite-Flipkart -->
+                      <a href="#" panel-name="suite-Flipkart" class="show-methods failed suite-Flipkart"> (show)</a> <!-- show-methods failed suite-Flipkart -->
                     </span>
-                    <div class="method-list-content passed suite-Flipkart">
+                    <div class="method-list-content failed suite-Flipkart">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Flipkart" title="com.Flipkart.testCases.TC_004_BecomeSellerTest" hash-for-method="BecomeSellerTest">BecomeSellerTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Flipkart" title="com.Flipkart.testCases.TC_003_CartTest" hash-for-method="CartTest">CartTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Flipkart" title="com.Flipkart.testCases.TC_001_LoginTest" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Flipkart" title="com.Flipkart.testCases.TC_002_LogOutTest" hash-for-method="LogoutTest">LogoutTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Flipkart" title="com.Flipkart.testCases.TC_005_SelectToyTest" hash-for-method="SelectToyTest">SelectToyTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Flipkart -->
+                    </div> <!-- method-list-content failed suite-Flipkart -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -137,39 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Flipkart" class="panel Flipkart">
-          <div class="suite-Flipkart-class-passed">
+          <div class="suite-Flipkart-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Flipkart.testCases.TC_001_LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest">
-                  </a> <!-- LoginTest -->
-                  <span class="method-name">LoginTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Flipkart-class-passed -->
-          <div class="suite-Flipkart-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Flipkart.testCases.TC_003_CartTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CartTest">
-                  </a> <!-- CartTest -->
-                  <span class="method-name">CartTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Flipkart-class-passed -->
-          <div class="suite-Flipkart-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.Flipkart.testCases.TC_005_SelectToyTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -178,40 +128,37 @@
                   <a name="SelectToyTest">
                   </a> <!-- SelectToyTest -->
                   <span class="method-name">SelectToyTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[normalize-space()=&apos;Add to Cart&apos;])[1]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-7HVSB5O&apos;, ip: &apos;192.168.216.61&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Yogesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cabae5ffc78560baf44b63b96f075a3
+*** Element info: {Using=xpath, value=(//button[normalize-space()=&apos;Add to Cart&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.Flipkart.pageObjects.BeautyToysAndMorePage.ClickonAddToCart(BeautyToysAndMorePage.java:58)
+	at com.Flipkart.testCases.TC_005_SelectToyTest.SelectToyTest(TC_005_SelectToyTest.java:65)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Flipkart-class-passed -->
-          <div class="suite-Flipkart-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Flipkart.testCases.TC_004_BecomeSellerTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="BecomeSellerTest">
-                  </a> <!-- BecomeSellerTest -->
-                  <span class="method-name">BecomeSellerTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Flipkart-class-passed -->
-          <div class="suite-Flipkart-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.Flipkart.testCases.TC_002_LogOutTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LogoutTest">
-                  </a> <!-- LogoutTest -->
-                  <span class="method-name">LogoutTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Flipkart-class-passed -->
+          </div> <!-- suite-Flipkart-class-failed -->
         </div> <!-- panel Flipkart -->
         <div panel-name="test-xml-Flipkart" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -228,10 +175,6 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;FlipkartApp Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Flipkart.testCases.TC_001_LoginTest&quot;/&gt;
-      &lt;class name=&quot;com.Flipkart.testCases.TC_002_LogOutTest&quot;/&gt;
-      &lt;class name=&quot;com.Flipkart.testCases.TC_003_CartTest&quot;/&gt;
-      &lt;class name=&quot;com.Flipkart.testCases.TC_004_BecomeSellerTest&quot;/&gt;
       &lt;class name=&quot;com.Flipkart.testCases.TC_005_SelectToyTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FlipkartApp Test --&gt;
@@ -246,7 +189,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">FlipkartApp Test (5 classes)</span>
+                <span class="test-name">FlipkartApp Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -272,32 +215,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'BecomeSellerTest')
-data.setCell(0, 2, 'com.Flipkart.testCases.TC_004_BecomeSellerTest')
-data.setCell(0, 3, 12100);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SelectToyTest')
-data.setCell(1, 2, 'com.Flipkart.testCases.TC_005_SelectToyTest')
-data.setCell(1, 3, 11215);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LogoutTest')
-data.setCell(2, 2, 'com.Flipkart.testCases.TC_002_LogOutTest')
-data.setCell(2, 3, 10450);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CartTest')
-data.setCell(3, 2, 'com.Flipkart.testCases.TC_003_CartTest')
-data.setCell(3, 3, 9295);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'LoginTest')
-data.setCell(4, 2, 'com.Flipkart.testCases.TC_001_LoginTest')
-data.setCell(4, 3, 4223);
+data.setCell(0, 1, 'SelectToyTest')
+data.setCell(0, 2, 'com.Flipkart.testCases.TC_005_SelectToyTest')
+data.setCell(0, 3, 28513);
 window.suiteTableData['Flipkart']= { tableData: data, tableDiv: 'times-div-Flipkart'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Flipkart">
               </div> <!-- times-div-Flipkart -->
             </div> <!-- times-div -->
@@ -323,78 +250,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Flipkart.testCases.TC_001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.Flipkart.testCases.TC_005_SelectToyTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">LoginTest</span>
-                <span class="method-start">2924 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">7169 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.Flipkart.testCases.TC_002_LogOutTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">7854 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">LogoutTest</span>
-                <span class="method-start">9311 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">19764 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.Flipkart.testCases.TC_003_CartTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">20425 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">CartTest</span>
-                <span class="method-start">21807 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">31104 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.Flipkart.testCases.TC_004_BecomeSellerTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">31794 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">BecomeSellerTest</span>
-                <span class="method-start">33211 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">45313 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.Flipkart.testCases.TC_005_SelectToyTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">46016 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SelectToyTest</span>
-                <span class="method-start">47379 ms</span>
+                <span class="method-start">3127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">58597 ms</span>
+                <span class="method-start">31706 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

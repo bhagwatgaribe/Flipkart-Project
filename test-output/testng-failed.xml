@@ -7,13 +7,13 @@
   <test thread-count="5" name="FlipkartApp Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Flipkart.testCases.TC_002_LogOutTest">
+      <class name="com.Flipkart.testCases.TC_005_SelectToyTest">
         <methods>
-          <include name="LogoutTest"/>
+          <include name="SelectToyTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.Flipkart.testCases.TC_002_LogOutTest -->
+      </class> <!-- com.Flipkart.testCases.TC_005_SelectToyTest -->
     </classes>
   </test> <!-- FlipkartApp Test(failed) -->
 </suite> <!-- Failed suite [Flipkart] -->

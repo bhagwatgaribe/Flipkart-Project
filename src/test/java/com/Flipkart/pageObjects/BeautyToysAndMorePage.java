@@ -21,6 +21,23 @@ public class BeautyToysAndMorePage {
 	@CacheLookup
 	WebElement txtToysAndSchoolSupplies;
 	
+	@FindBy(linkText = ("Sports Toys"))
+	@CacheLookup
+	WebElement txtSportToys;
+	
+	@FindBy(linkText =("KRISHNA VERMICOMPOST Football"))
+	@CacheLookup
+	WebElement txtFootball;
+	
+	@FindBy(xpath = "(//button[normalize-space()='Add to Cart'])[1]")
+	@CacheLookup
+	WebElement txtAddToCart;
+	
+	@FindBy(xpath = ("//div[contains(text(),'My Cart (1)')]"))
+	@CacheLookup
+	WebElement txtCartText;
+	
+	
 	public WebElement clickonBeautyandToys() {		
 		return txtBeautyToys;
 	}
@@ -28,4 +45,20 @@ public class BeautyToysAndMorePage {
 	public void ClickonToysAndSchoolSupplies() {
 		txtToysAndSchoolSupplies.click();
 	}
-}
+	
+	public void ClickonSportToyes() {
+		txtSportToys.click();
+	}
+	
+	public void ClickonFootballItem() {
+		txtFootball.click();
+	}
+	
+	public void ClickonAddToCart() {
+		txtAddToCart.click();
+	}
+	
+	public void getCartText() {
+		txtCartText.getText();
+	}
+}	
