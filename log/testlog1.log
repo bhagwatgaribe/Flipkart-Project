@@ -1,0 +1,142 @@
+2022-07-15 18:12:38,987 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:12:39,276 [main] INFO Flipkart - User name is entered
+2022-07-15 18:12:39,480 [main] INFO Flipkart - Password is entered
+2022-07-15 18:12:39,625 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:12:39,663 [main] INFO Flipkart - Login test passed
+2022-07-15 18:12:47,854 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:12:47,992 [main] INFO Flipkart - User name is entered
+2022-07-15 18:12:48,176 [main] INFO Flipkart - Password is entered
+2022-07-15 18:12:48,305 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:12:48,486 [main] INFO Flipkart - Clicked on user profile
+2022-07-15 18:12:59,186 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:13:02,340 [main] INFO Flipkart - Login closed
+2022-07-15 18:13:02,459 [main] INFO Flipkart - Cart page opened successfully..!
+2022-07-15 18:13:04,468 [main] INFO Flipkart - Cart test passed
+2022-07-15 18:13:09,723 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:13:10,879 [main] INFO Flipkart - Login closed
+2022-07-15 18:13:14,529 [main] INFO Flipkart - Become a seller page opened successfully
+2022-07-15 18:13:15,545 [main] INFO Flipkart - Become seller test case passed
+2022-07-15 18:13:21,071 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:13:21,253 [main] INFO Flipkart - User name is entered
+2022-07-15 18:13:21,457 [main] INFO Flipkart - Password is entered
+2022-07-15 18:13:21,568 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:13:31,479 [main] INFO Flipkart - Clicked on Beauty, Toys and More
+2022-07-15 18:26:45,864 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:26:46,059 [main] INFO Flipkart - User name is entered
+2022-07-15 18:26:46,233 [main] INFO Flipkart - Password is entered
+2022-07-15 18:26:46,355 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:26:46,381 [main] INFO Flipkart - Login test passed
+2022-07-15 18:26:52,162 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:26:52,310 [main] INFO Flipkart - User name is entered
+2022-07-15 18:26:52,462 [main] INFO Flipkart - Password is entered
+2022-07-15 18:26:52,614 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:26:52,799 [main] INFO Flipkart - Clicked on user profile
+2022-07-15 18:27:01,348 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:27:04,509 [main] INFO Flipkart - Login closed
+2022-07-15 18:27:04,663 [main] INFO Flipkart - Cart page opened successfully..!
+2022-07-15 18:27:06,673 [main] INFO Flipkart - Cart test passed
+2022-07-15 18:27:11,850 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:27:13,003 [main] INFO Flipkart - Login closed
+2022-07-15 18:27:19,417 [main] INFO Flipkart - Become a seller page opened successfully
+2022-07-15 18:27:20,433 [main] INFO Flipkart - Become seller test case passed
+2022-07-15 18:27:28,915 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:27:29,046 [main] INFO Flipkart - User name is entered
+2022-07-15 18:27:29,370 [main] INFO Flipkart - Password is entered
+2022-07-15 18:27:29,562 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:27:34,919 [main] INFO Flipkart - Clicked on Beauty, Toys and More
+2022-07-15 18:28:59,757 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:28:59,995 [main] INFO Flipkart - User name is entered
+2022-07-15 18:29:00,179 [main] INFO Flipkart - Password is entered
+2022-07-15 18:29:00,307 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:29:00,335 [main] INFO Flipkart - Login test passed
+2022-07-15 18:29:06,309 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:29:06,489 [main] INFO Flipkart - User name is entered
+2022-07-15 18:29:06,665 [main] INFO Flipkart - Password is entered
+2022-07-15 18:29:06,804 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:29:18,800 [main] INFO Flipkart - Clicked on user profile
+2022-07-15 18:29:27,500 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:29:30,663 [main] INFO Flipkart - Login closed
+2022-07-15 18:29:30,806 [main] INFO Flipkart - Cart page opened successfully..!
+2022-07-15 18:29:32,813 [main] INFO Flipkart - Cart test passed
+2022-07-15 18:29:38,021 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:29:39,157 [main] INFO Flipkart - Login closed
+2022-07-15 18:29:44,569 [main] INFO Flipkart - Become a seller page opened successfully
+2022-07-15 18:29:45,587 [main] INFO Flipkart - Become seller test case passed
+2022-07-15 18:29:50,671 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:29:50,838 [main] INFO Flipkart - User name is entered
+2022-07-15 18:29:51,009 [main] INFO Flipkart - Password is entered
+2022-07-15 18:29:51,162 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:29:56,420 [main] INFO Flipkart - Clicked on Beauty, Toys and More
+2022-07-15 18:33:29,477 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:33:29,734 [main] INFO Flipkart - User name is entered
+2022-07-15 18:33:29,907 [main] INFO Flipkart - Password is entered
+2022-07-15 18:33:30,023 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:33:30,052 [main] INFO Flipkart - Login test passed
+2022-07-15 18:33:35,398 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:33:35,563 [main] INFO Flipkart - User name is entered
+2022-07-15 18:33:35,732 [main] INFO Flipkart - Password is entered
+2022-07-15 18:33:35,851 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:33:39,037 [main] INFO Flipkart - Clicked on user profile
+2022-07-15 18:33:46,867 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:33:50,096 [main] INFO Flipkart - Login closed
+2022-07-15 18:33:50,254 [main] INFO Flipkart - Cart page opened successfully..!
+2022-07-15 18:33:52,261 [main] INFO Flipkart - Cart test passed
+2022-07-15 18:33:57,721 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:33:58,864 [main] INFO Flipkart - Login closed
+2022-07-15 18:34:05,186 [main] INFO Flipkart - Become a seller page opened successfully
+2022-07-15 18:34:06,202 [main] INFO Flipkart - Become seller test case passed
+2022-07-15 18:34:11,677 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:34:11,837 [main] INFO Flipkart - User name is entered
+2022-07-15 18:34:12,001 [main] INFO Flipkart - Password is entered
+2022-07-15 18:34:12,118 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:34:17,546 [main] INFO Flipkart - Clicked on Beauty, Toys and More
+2022-07-15 18:46:42,612 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:46:42,866 [main] INFO Flipkart - User name is entered
+2022-07-15 18:46:43,022 [main] INFO Flipkart - Password is entered
+2022-07-15 18:46:43,130 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:46:43,147 [main] INFO Flipkart - Login test passed
+2022-07-15 18:46:48,740 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:46:48,903 [main] INFO Flipkart - User name is entered
+2022-07-15 18:46:49,087 [main] INFO Flipkart - Password is entered
+2022-07-15 18:46:49,226 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:46:53,571 [main] INFO Flipkart - Clicked on user profile
+2022-07-15 18:47:02,008 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:47:05,172 [main] INFO Flipkart - Login closed
+2022-07-15 18:47:05,318 [main] INFO Flipkart - Cart page opened successfully..!
+2022-07-15 18:47:07,325 [main] INFO Flipkart - Cart test passed
+2022-07-15 18:47:16,431 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:47:17,588 [main] INFO Flipkart - Login closed
+2022-07-15 18:47:23,641 [main] INFO Flipkart - Become a seller page opened successfully
+2022-07-15 18:47:24,649 [main] INFO Flipkart - Become seller test case passed
+2022-07-15 18:47:30,497 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:47:30,646 [main] INFO Flipkart - User name is entered
+2022-07-15 18:47:30,815 [main] INFO Flipkart - Password is entered
+2022-07-15 18:47:30,953 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:47:33,565 [main] INFO Flipkart - Clicked on Beauty, Toys and More
+2022-07-15 18:47:36,028 [main] INFO Flipkart - Clicked on Toys & School Supplies
+2022-07-15 18:51:38,481 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:51:38,718 [main] INFO Flipkart - User name is entered
+2022-07-15 18:51:38,874 [main] INFO Flipkart - Password is entered
+2022-07-15 18:51:39,017 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:51:39,042 [main] INFO Flipkart - Login test passed
+2022-07-15 18:51:44,795 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:51:44,940 [main] INFO Flipkart - User name is entered
+2022-07-15 18:51:45,109 [main] INFO Flipkart - Password is entered
+2022-07-15 18:51:45,254 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:51:48,447 [main] INFO Flipkart - Clicked on user profile
+2022-07-15 18:51:51,644 [main] INFO Flipkart - Clicked on logout
+2022-07-15 18:51:51,656 [main] INFO Flipkart - Logout test passed
+2022-07-15 18:51:57,704 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:52:00,858 [main] INFO Flipkart - Login closed
+2022-07-15 18:52:00,987 [main] INFO Flipkart - Cart page opened successfully..!
+2022-07-15 18:52:02,995 [main] INFO Flipkart - Cart test passed
+2022-07-15 18:52:08,841 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:52:10,015 [main] INFO Flipkart - Login closed
+2022-07-15 18:52:16,199 [main] INFO Flipkart - Become a seller page opened successfully
+2022-07-15 18:52:17,206 [main] INFO Flipkart - Become seller test case passed
+2022-07-15 18:52:24,915 [main] INFO Flipkart - URL is opened.
+2022-07-15 18:52:25,085 [main] INFO Flipkart - User name is entered
+2022-07-15 18:52:25,268 [main] INFO Flipkart - Password is entered
+2022-07-15 18:52:25,409 [main] INFO Flipkart - Logged in successfully
+2022-07-15 18:52:28,006 [main] INFO Flipkart - Clicked on Beauty, Toys and More
+2022-07-15 18:52:30,489 [main] INFO Flipkart - Clicked on Toys & School Supplies

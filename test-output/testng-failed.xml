@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flipkart]">
+  <listeners>
+    <listener class-name="com.Flipkart.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="FlipkartApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Flipkart.testCases.TC_002_LogOutTest">
+        <methods>
+          <include name="LogoutTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Flipkart.testCases.TC_002_LogOutTest -->
+    </classes>
+  </test> <!-- FlipkartApp Test(failed) -->
+</suite> <!-- Failed suite [Flipkart] -->
